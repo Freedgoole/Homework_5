@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.conteiner{
+    position: relative;
+	width: 560px;
+	height: 440px;
+	margin: 0 auto;
+	background: #46CEC7;
+	overflow: hidden;
+}
+.world {
+	position: absolute;
+	top: 104px;
+	left:2px;
+	z-index: 1;
+}
+.clouds {
+	width: 63%;
+	position: absolute;
+	top: 0px;
+	left: 214px;
+}
+.water {
+	position: absolute;
+	top: 400px;
+	z-index: 4;
+}
+.wooden-ship{
+	position: absolute;
+	z-index: 2;
+	top: 296px;
+	height: 26%;
+    left: 16px;
+}

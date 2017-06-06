@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, .wrap, .fullwrap, footer, .main, .sidebar {
+border: 1px solid black;
+}
+header, .wrap, footer {
+    width: 460px;
+    margin: 10px auto;
+}
+
+.fullwrap {
+    width: 490px;
+    height: 540px;
+    margin: 0 auto;
+}
+header { 
+    height: 60px;
+    
+}
+.wrap {
+    height: 318px;
+    
+}
+footer {
+    height: 100px;
+}
+
+.main {
+    width: 255px;
+    height: 295px;
+    margin: 10px 0 0 6px;
+    float: left;
+      
+}
+.sidebar {
+    height: 295px;
+    width: 163px; 
+    float: right;
+    margin: 10px 6px 0 0;
+    
+}
+.clearfix::after {
+display: block;
+content: '';
+clear:both;
+}
